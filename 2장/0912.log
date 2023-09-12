@@ -1,0 +1,101 @@
+10+20
+30
+console.log("안녕하세요")
+VM120:1 안녕하세요
+undefined
+alret("안녕하세요.")
+VM175:1 Uncaught ReferenceError: alret is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM175:1
+alert("안녕하세요")
+undefined
+a = 10
+10
+alert(a)
+undefined
+confirm("종료하시겠습니까?")
+true
+prompt("당신의 이름은?")
+'마건영'
+propmt("종료하시겠습니까?)(예/아니오)","예")
+VM590:1 Uncaught ReferenceError: propmt is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM590:1
+prompt("종료하시갯습니까?)(예/아니오)',"예")
+VM721:1 Uncaught SyntaxError: missing ) after argument list
+prompt("종료하시겠습니까?)(예/아니오)","예")
+'예'
+name = "마건영"
+'마건영'
+console.log(name +"님 환영합니다.")
+VM1039:1 마건영님 환영합니다.
+undefined
+document.write("제 이름은 " + name + "입니다.")
+undefined
+lert result
+VM1250:1 Uncaught SyntaxError: Unexpected identifier 'result'
+let result
+undefined
+result=10
+10
+result=20
+20
+const number = 10
+undefined
+number
+10
+number=20
+VM1401:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:7
+(anonymous) @ VM1401:1
+let age = 22
+undefined
+console.log(name + "님 나이는" + age + "세 입니다.")
+VM1653:1 마건영님 나이는22세 입니다.
+undefined
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM1736:1 마건영님의 나이는 22세 입니다.
+undefined
+let stduent = {
+    major : "컴퓨터공학부",
+    idNum : 202095032,
+    name : "마건영"
+}
+undefined
+student
+VM1979:1 Uncaught ReferenceError: student is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1979:1
+student
+VM1997:1 Uncaught ReferenceError: student is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1997:1
+stduent
+{major: '컴퓨터공학부', idNum: 202095032, name: '마건영'}
+std
+VM2034:1 Uncaught ReferenceError: std is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2034:1
+stduent.name
+'마건영'
+student["major"]
+VM2121:1 Uncaught ReferenceError: student is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2121:1
+stduent["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "마건영",
+    [id] : 12345
+}
+undefined
+member
+{name: '마건영', Symbol(): 12345}
+memeber[id]
+VM2411:1 Uncaught ReferenceError: memeber is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2411:1
+member[id]
+12345

@@ -1,0 +1,7 @@
+//인수의 일부분만 나머지 매개변수로 받기
+function fav(first, ...favs){
+  let str1 = `가장 좋아하는 과일은 "${first}입니다\n`;
+  let str2= `나머지 과일은 "${first}입니다`;
+    return str;
+}
+console.log(fav("사과" ,"딸기" ,"배" ,"포도 ","오렌지"))

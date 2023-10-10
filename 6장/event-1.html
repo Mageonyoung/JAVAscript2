@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이벤트 처리기</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/event-5.css">
+  <style>
+    button {
+      padding:10px 20px;
+      text-transform: uppercase;
+    }
+    .convert{
+      background-color: black;
+      color:rgb(253, 254, 255);
+    }
+  </style>
+</head>
+<body>
+    <h1>이벤트 처리하기</h1>
+    <br>
+    <button onclick="alert(`클릭`)">Click -태그에함수연결</button>"
+    <br>
+    <button id="btn1">Click-웹 요소에 함수연결 (배경바꾸기)</button>
+    <br>
+    <button id="btn2">Click-배경바꾸기함수 따로만들기</button>
+    <br>
+    <button id="btn3" onclick="arert(`두가지 이벤트처리`)">Click-두가지 이벤트 처리</button>
+    <br>
+    <button id="btn4" onclick="arert(`이벤트 리스너 사용`)">Click-이벤트리스너사용</button>
+    <br>
+    <button id="btn5">Click-배경과 글자색 토글하기</button>
+
+    <div id ="contents">
+      <input type="text" id= "word">
+      <button id="btn6">글자 수 확인</button>
+    </div>
+    <div id="result"></div>
+    <script src="js/event-.js"></script>
+</body>
+</html>
